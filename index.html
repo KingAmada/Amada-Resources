@@ -7,7 +7,7 @@
     <!-- Primary Meta Tags -->
     <title>Amada Resources & Sons LTD | Construction, Solar & Procurement</title>
     <meta name="title" content="Amada Resources & Sons LTD | Construction, Solar & Procurement">
-    <meta name="description" content="Amada Resources & Sons Limited (RC: 833987) is a premier infrastructure development, water engineering, off-grid solar, and general contracting company in Nigeria. Trusted by WFP, ALIMA & FIRS.">
+    <meta name="description" id="meta-description" content="Amada Resources & Sons Limited (RC: 833987) is a premier infrastructure development, water engineering, off-grid solar, and general contracting company in Nigeria. Trusted by WFP, ALIMA & FIRS.">
     <meta name="keywords" content="Construction company Nigeria, Civil Engineering Abuja, Solar installation Nigeria, Water engineering, Borehole drilling, General procurement, Medical equipment supply, Amada Resources">
     <meta name="author" content="Amada Resources & Sons Limited">
     <meta name="robots" content="index, follow">
@@ -18,15 +18,15 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://amadaresourcesltd.com/">
-    <meta property="og:title" content="Amada Resources & Sons LTD | Building the Future">
-    <meta property="og:description" content="Premier infrastructure development, solar energy solutions, and general procurement in Nigeria. Delivering excellence for over 15 years.">
+    <meta property="og:title" id="og-title" content="Amada Resources & Sons LTD | Building the Future">
+    <meta property="og:description" id="og-description" content="Premier infrastructure development, solar energy solutions, and general procurement in Nigeria. Delivering excellence for over 15 years.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://amadaresourcesltd.com/">
-    <meta property="twitter:title" content="Amada Resources & Sons LTD">
-    <meta property="twitter:description" content="Premier infrastructure development, solar energy solutions, and general procurement in Nigeria. Delivering excellence for over 15 years.">
+    <meta property="twitter:title" id="twitter-title" content="Amada Resources & Sons LTD">
+    <meta property="twitter:description" id="twitter-description" content="Premier infrastructure development, solar energy solutions, and general procurement in Nigeria. Delivering excellence for over 15 years.">
     <meta property="twitter:image" content="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
 
     <!-- Structured Data (JSON-LD) for Rich SEO Results -->
@@ -113,7 +113,7 @@
         .hero-slide.inactive { opacity: 0; transform: scale(1); }
     </style>
 </head>
-<body class="font-sans text-slate-800 bg-slate-50 min-h-screen flex flex-col">
+<body class="font-sans text-slate-800 bg-slate-50 min-h-screen flex flex-col overflow-x-hidden">
 
     <!-- Navigation Header -->
     <header id="navbar" class="fixed w-full z-50 transition-all duration-500 bg-transparent py-6">
@@ -157,7 +157,7 @@
 
                 <!-- Mobile Menu Button -->
                 <div class="md:hidden">
-                    <button id="mobile-menu-btn" class="transition-colors text-white focus:outline-none" aria-label="Open Mobile Menu">
+                    <button id="mobile-menu-btn" class="transition-colors text-white focus:outline-none p-2" aria-label="Open Mobile Menu">
                         <i data-lucide="menu" class="w-7 h-7"></i>
                     </button>
                 </div>
@@ -166,7 +166,7 @@
 
         <!-- Mobile Nav Overlay -->
         <div id="mobile-menu" class="md:hidden fixed inset-0 bg-white z-40 transition-transform duration-500 ease-in-out translate-x-full pt-24 px-6" aria-hidden="true">
-            <button id="mobile-menu-close" class="absolute top-8 right-6 text-slate-800" aria-label="Close Mobile Menu">
+            <button id="mobile-menu-close" class="absolute top-8 right-6 text-slate-800 p-2" aria-label="Close Mobile Menu">
                 <i data-lucide="x" class="w-8 h-8"></i>
             </button>
             <nav class="flex flex-col space-y-6 text-xl" aria-label="Mobile Navigation">
@@ -175,13 +175,13 @@
                 <button onclick="navigateTo('services')" class="mobile-nav-link font-bold text-left border-b border-slate-100 pb-4 text-slate-800" data-target="services">Services</button>
                 <button onclick="navigateTo('projects')" class="mobile-nav-link font-bold text-left border-b border-slate-100 pb-4 text-slate-800" data-target="projects">Projects</button>
                 <button onclick="navigateTo('clients')" class="mobile-nav-link font-bold text-left border-b border-slate-100 pb-4 text-slate-800" data-target="clients">Clients</button>
-                <button onclick="navigateTo('contact')" class="bg-green-500 text-white text-center py-4 rounded-xl font-bold mt-4 shadow-lg">Contact Us</button>
+                <button onclick="navigateTo('contact')" class="bg-green-500 text-white text-center py-4 rounded-xl font-bold mt-4 shadow-lg w-full">Contact Us</button>
             </nav>
         </div>
     </header>
 
     <!-- MAIN CONTENT AREA -->
-    <main class="flex-grow">
+    <main class="flex-grow w-full overflow-hidden">
         
         <!-- === HOME PAGE === -->
         <article id="page-home" class="page-content active">
@@ -193,22 +193,22 @@
                 <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80 z-10"></div>
                 
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-white text-center md:text-left mt-20 w-full">
-                    <div class="max-w-3xl">
+                    <div class="max-w-3xl mx-auto md:mx-0">
                         <div class="reveal-up delay-100 inline-block bg-green-500/20 border border-green-500/50 text-green-400 text-xs md:text-sm font-bold px-4 py-1.5 rounded-full mb-6 tracking-widest uppercase backdrop-blur-sm">
                             RC: 833987 | Excellence Driven
                         </div>
-                        <h1 class="reveal-up delay-300 text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
+                        <h1 class="reveal-up delay-300 text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
                             Building the Future, <br/>
                             <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-600">Delivering Excellence.</span>
                         </h1>
-                        <p class="reveal-up delay-500 text-lg md:text-2xl text-slate-300 mb-10 max-w-2xl leading-relaxed font-light mx-auto md:mx-0">
+                        <p class="reveal-up delay-500 text-base sm:text-lg md:text-2xl text-slate-300 mb-10 max-w-2xl leading-relaxed font-light mx-auto md:mx-0">
                             Amada Resources & Sons Limited is a premier infrastructure development and procurement company dedicated to professional ethics, quality, and community stewardship.
                         </p>
                         <div class="reveal-up delay-700 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                            <button onclick="navigateTo('services')" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-center transition-all duration-300 flex items-center justify-center gap-2 transform hover:-translate-y-1 shadow-lg hover:shadow-green-500/40">
+                            <button onclick="navigateTo('services')" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-center transition-all duration-300 flex items-center justify-center gap-2 transform hover:-translate-y-1 shadow-lg hover:shadow-green-500/40 w-full sm:w-auto">
                                 Explore Services <i data-lucide="arrow-right" class="w-5 h-5"></i>
                             </button>
-                            <button onclick="navigateTo('contact')" class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-bold text-center transition-all duration-300 transform hover:-translate-y-1">
+                            <button onclick="navigateTo('contact')" class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-bold text-center transition-all duration-300 transform hover:-translate-y-1 w-full sm:w-auto">
                                 Contact Us
                             </button>
                         </div>
@@ -219,20 +219,20 @@
             <!-- Quick Links -->
             <section class="py-12 bg-white border-b border-slate-100" aria-label="Quick Links">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                        <button onclick="navigateTo('about')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                        <button onclick="navigateTo('about')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md w-full">
                             <i data-lucide="building-2" class="w-10 h-10 mx-auto mb-4 text-slate-400 group-hover:text-green-500 transition-colors"></i>
                             <h2 class="font-bold text-slate-800">Company Profile</h2>
                         </button>
-                        <button onclick="navigateTo('services')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md">
+                        <button onclick="navigateTo('services')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md w-full">
                             <i data-lucide="briefcase" class="w-10 h-10 mx-auto mb-4 text-slate-400 group-hover:text-green-500 transition-colors"></i>
                             <h2 class="font-bold text-slate-800">Our Services</h2>
                         </button>
-                        <button onclick="navigateTo('projects')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md">
+                        <button onclick="navigateTo('projects')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md w-full">
                             <i data-lucide="folder-kanban" class="w-10 h-10 mx-auto mb-4 text-slate-400 group-hover:text-green-500 transition-colors"></i>
                             <h2 class="font-bold text-slate-800">Capabilities</h2>
                         </button>
-                        <button onclick="navigateTo('clients')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md">
+                        <button onclick="navigateTo('clients')" class="p-8 bg-slate-50 rounded-3xl hover:bg-green-50 transition-colors group border border-slate-100 shadow-sm hover:shadow-md w-full">
                             <i data-lucide="users" class="w-10 h-10 mx-auto mb-4 text-slate-400 group-hover:text-green-500 transition-colors"></i>
                             <h2 class="font-bold text-slate-800">Our Partners</h2>
                         </button>
@@ -241,101 +241,101 @@
             </section>
 
             <!-- Expanded Section: Why Choose Us -->
-            <section class="py-24 bg-slate-50 relative overflow-hidden" aria-label="Why Choose Us">
+            <section class="py-20 md:py-24 bg-slate-50 relative overflow-hidden" aria-label="Why Choose Us">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="text-center max-w-3xl mx-auto mb-16 reveal-up">
-                        <h2 class="text-4xl font-bold text-slate-900 mb-4">Why Partner With <span class="text-green-500">Amada?</span></h2>
+                    <div class="text-center max-w-3xl mx-auto mb-12 md:mb-16 reveal-up">
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why Partner With <span class="text-green-500">Amada?</span></h2>
                         <div class="w-20 h-1.5 bg-green-500 mx-auto mb-6 rounded-full"></div>
-                        <p class="text-slate-600 text-lg">We deliver beyond expectations, combining deep industry knowledge with unwavering dedication to quality, safety, and community advancement.</p>
+                        <p class="text-slate-600 text-base md:text-lg">We deliver beyond expectations, combining deep industry knowledge with unwavering dedication to quality, safety, and community advancement.</p>
                     </div>
                     
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <article class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 reveal-up hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <article class="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-slate-100 reveal-up hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                             <div class="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mb-6 text-green-600">
                                 <i data-lucide="shield-check" class="w-8 h-8"></i>
                             </div>
-                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Quality Assurance</h3>
-                            <p class="text-slate-600 leading-relaxed">We adhere strictly to international best practices. Our materials are sourced responsibly, and every project undergoes rigorous quality control checks.</p>
+                            <h3 class="text-xl md:text-2xl font-bold text-slate-900 mb-4">Quality Assurance</h3>
+                            <p class="text-slate-600 leading-relaxed text-sm md:text-base">We adhere strictly to international best practices. Our materials are sourced responsibly, and every project undergoes rigorous quality control checks.</p>
                         </article>
                         
-                        <article class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <article class="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                             <div class="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mb-6 text-green-600">
                                 <i data-lucide="clock" class="w-8 h-8"></i>
                             </div>
-                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Timely Delivery</h3>
-                            <p class="text-slate-600 leading-relaxed">We understand that time is money. Our advanced project management methodologies ensure that milestones are met safely and right on schedule.</p>
+                            <h3 class="text-xl md:text-2xl font-bold text-slate-900 mb-4">Timely Delivery</h3>
+                            <p class="text-slate-600 leading-relaxed text-sm md:text-base">We understand that time is money. Our advanced project management methodologies ensure that milestones are met safely and right on schedule.</p>
                         </article>
 
-                        <article class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <article class="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                             <div class="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mb-6 text-green-600">
                                 <i data-lucide="heart-handshake" class="w-8 h-8"></i>
                             </div>
-                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Client-Centric Approach</h3>
-                            <p class="text-slate-600 leading-relaxed">We build relationships, not just structures. From government agencies to NGOs, we collaborate closely with stakeholders to ensure total satisfaction.</p>
+                            <h3 class="text-xl md:text-2xl font-bold text-slate-900 mb-4">Client-Centric Approach</h3>
+                            <p class="text-slate-600 leading-relaxed text-sm md:text-base">We build relationships, not just structures. From government agencies to NGOs, we collaborate closely with stakeholders to ensure total satisfaction.</p>
                         </article>
                     </div>
                 </div>
             </section>
 
             <!-- Expanded Section: Company Stats -->
-            <section class="py-20 bg-slate-900 text-white relative border-b-8 border-green-500" aria-label="Company Statistics">
+            <section class="py-16 md:py-20 bg-slate-900 text-white relative border-b-8 border-green-500" aria-label="Company Statistics">
                 <div class="absolute inset-0 opacity-10 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')"></div>
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-slate-700/50">
-                        <div class="reveal-up p-4">
-                            <div class="text-5xl md:text-6xl font-extrabold text-green-500 mb-2">15+</div>
-                            <div class="text-slate-300 font-medium uppercase tracking-wider text-sm">Years Experience</div>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center divide-x-0 md:divide-x divide-slate-700/50">
+                        <div class="reveal-up p-2 md:p-4">
+                            <div class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-green-500 mb-2">15+</div>
+                            <div class="text-slate-300 font-medium uppercase tracking-wider text-xs sm:text-sm">Years Experience</div>
                         </div>
-                        <div class="reveal-up delay-100 p-4">
-                            <div class="text-5xl md:text-6xl font-extrabold text-green-500 mb-2">100+</div>
-                            <div class="text-slate-300 font-medium uppercase tracking-wider text-sm">Projects Completed</div>
+                        <div class="reveal-up delay-100 p-2 md:p-4">
+                            <div class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-green-500 mb-2">100+</div>
+                            <div class="text-slate-300 font-medium uppercase tracking-wider text-xs sm:text-sm">Projects Completed</div>
                         </div>
-                        <div class="reveal-up delay-200 p-4">
-                            <div class="text-5xl md:text-6xl font-extrabold text-green-500 mb-2">50+</div>
-                            <div class="text-slate-300 font-medium uppercase tracking-wider text-sm">NGO & Govt Partners</div>
+                        <div class="reveal-up delay-200 p-2 md:p-4">
+                            <div class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-green-500 mb-2">50+</div>
+                            <div class="text-slate-300 font-medium uppercase tracking-wider text-xs sm:text-sm">NGO & Govt Partners</div>
                         </div>
-                        <div class="reveal-up delay-300 p-4">
-                            <div class="text-5xl md:text-6xl font-extrabold text-green-500 mb-2">100%</div>
-                            <div class="text-slate-300 font-medium uppercase tracking-wider text-sm">Safety Record</div>
+                        <div class="reveal-up delay-300 p-2 md:p-4">
+                            <div class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-green-500 mb-2">100%</div>
+                            <div class="text-slate-300 font-medium uppercase tracking-wider text-xs sm:text-sm">Safety Record</div>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Solar Focus -->
-            <section class="py-24 bg-green-600 text-white overflow-hidden relative" aria-label="Solar Energy Focus">
+            <section class="py-20 md:py-24 bg-green-600 text-white overflow-hidden relative" aria-label="Solar Energy Focus">
                 <div class="absolute inset-0 mix-blend-overlay opacity-30 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=2072&q=80')" role="img" aria-label="Solar Farm Background"></div>
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
                         <div class="reveal-left">
-                            <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Powering the Future with <span class="text-green-200">Solar Energy</span></h2>
-                            <p class="text-green-50 text-lg mb-8 leading-relaxed">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">Powering the Future with <span class="text-green-200">Solar Energy</span></h2>
+                            <p class="text-green-50 text-base md:text-lg mb-8 leading-relaxed">
                                 Amada Resources & Sons Ltd offers off-grid solar power system installations for homes, businesses, schools, and hospitals. We are passionate about mitigating global warming and providing clean, non-pollutant, and eco-friendly renewable energy.
                             </p>
-                            <button onclick="navigateTo('services')" class="bg-white text-green-600 px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                            <button onclick="navigateTo('services')" class="bg-white text-green-600 px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 w-full sm:w-auto">
                                 Learn More About Our Services
                             </button>
                         </div>
-                        <div class="reveal-right delay-200 grid grid-cols-2 gap-4 md:gap-6">
-                            <article class="bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2 mt-8 md:mt-12">
+                        <div class="reveal-right delay-200 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
+                            <article class="bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2 sm:mt-8 md:mt-12">
                                 <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4">
                                     <i data-lucide="zap" class="w-6 h-6 text-white"></i>
                                 </div>
                                 <h3 class="text-xl font-bold text-white mb-2">Residential Solar</h3>
                             </article>
-                            <article class="bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2">
+                            <article class="bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2">
                                 <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4">
                                     <i data-lucide="zap" class="w-6 h-6 text-white"></i>
                                 </div>
                                 <h3 class="text-xl font-bold text-white mb-2">Commercial Grids</h3>
                             </article>
-                            <article class="bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2 mt-8 md:mt-12">
+                            <article class="bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2 sm:mt-8 md:mt-12">
                                 <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4">
                                     <i data-lucide="droplets" class="w-6 h-6 text-white"></i>
                                 </div>
                                 <h3 class="text-xl font-bold text-white mb-2">Water Pumping</h3>
                             </article>
-                            <article class="bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2">
+                            <article class="bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20 transform transition-transform hover:-translate-y-2">
                                 <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4">
                                     <i data-lucide="sun" class="w-6 h-6 text-white"></i>
                                 </div>
@@ -347,16 +347,16 @@
             </section>
 
             <!-- Expanded Section: Call to Action Banner -->
-            <section class="py-20 bg-white relative overflow-hidden" aria-label="Call to Action">
+            <section class="py-16 md:py-20 bg-white relative overflow-hidden" aria-label="Call to Action">
                 <div class="absolute inset-0 bg-green-50 transform -skew-y-2 origin-top-left scale-110 z-0"></div>
                 <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center reveal-up">
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">Ready to Start Your Next Project?</h2>
-                    <p class="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">Contact us today to discuss how Amada Resources can bring expertise, reliability, and excellence to your infrastructure or procurement needs.</p>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">Ready to Start Your Next Project?</h2>
+                    <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">Contact us today to discuss how Amada Resources can bring expertise, reliability, and excellence to your infrastructure or procurement needs.</p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button onclick="navigateTo('contact')" class="bg-slate-900 hover:bg-slate-800 text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+                        <button onclick="navigateTo('contact')" class="bg-slate-900 hover:bg-slate-800 text-white px-8 md:px-10 py-4 rounded-full font-bold text-base md:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 w-full sm:w-auto">
                             Get a Free Consultation
                         </button>
-                        <a href="tel:+2347036899266" class="bg-white hover:bg-slate-50 border-2 border-slate-200 text-slate-900 px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center gap-2">
+                        <a href="tel:+2347036899266" class="bg-white hover:bg-slate-50 border-2 border-slate-200 text-slate-900 px-8 md:px-10 py-4 rounded-full font-bold text-base md:text-lg transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto">
                             <i data-lucide="phone" class="w-5 h-5"></i> Call +234 703 689 9266
                         </a>
                     </div>
@@ -366,60 +366,60 @@
 
         <!-- === ABOUT PAGE === -->
         <article id="page-about" class="page-content">
-            <header class="relative pt-40 pb-20 flex items-center justify-center text-center overflow-hidden">
+            <header class="relative pt-32 md:pt-40 pb-16 md:pb-20 flex items-center justify-center text-center overflow-hidden">
                 <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" role="img" aria-label="Construction Planning"></div>
                 <div class="absolute inset-0 bg-slate-900/80"></div>
                 <div class="relative z-10 px-4 reveal-up">
-                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">About Amada Resources</h1>
-                    <p class="text-green-400 text-lg font-medium">15+ Years of Excellence in Nigeria</p>
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">About Amada Resources</h1>
+                    <p class="text-green-400 text-base md:text-lg font-medium">15+ Years of Excellence in Nigeria</p>
                     <div class="w-20 h-1.5 bg-green-500 mx-auto mt-6 rounded-full"></div>
                 </div>
             </header>
             
-            <section class="py-24 bg-white relative overflow-hidden" aria-labelledby="who-we-are">
-                <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-green-50 rounded-full blur-3xl opacity-50"></div>
+            <section class="py-16 md:py-24 bg-white relative overflow-hidden" aria-labelledby="who-we-are">
+                <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-green-50 rounded-full blur-3xl opacity-50 hidden md:block"></div>
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
                         <div class="reveal-left">
-                            <h2 id="who-we-are" class="text-4xl font-bold text-slate-900 mb-6">Who <span class="text-green-500">We Are</span></h2>
+                            <h2 id="who-we-are" class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Who <span class="text-green-500">We Are</span></h2>
                             <div class="w-20 h-1.5 bg-green-500 mb-8 rounded-full"></div>
-                            <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                            <p class="text-slate-600 text-base md:text-lg mb-6 leading-relaxed">
                                 Incorporated in 2009, Amada Resources & Sons Ltd is an infrastructure development and general contracting company with proven competence in civil works, hydro engineering, power projects, and specialized procurement.
                             </p>
-                            <p class="text-slate-600 text-lg mb-10 leading-relaxed">
+                            <p class="text-slate-600 text-base md:text-lg mb-10 leading-relaxed">
                                 We seek to build long-lasting relationships with our customers by giving them the best deals in the real estate, construction, and supply industries. Our values are deeply rooted in integrity, excellent service, and maintaining a safe environment.
                             </p>
                             
                             <div class="space-y-6">
                                 <div class="flex gap-5 group">
                                     <div class="bg-green-50 group-hover:bg-green-500 transition-colors p-4 rounded-2xl text-green-600 group-hover:text-white flex-shrink-0 h-fit">
-                                        <i data-lucide="check-circle-2" class="w-8 h-8"></i>
+                                        <i data-lucide="check-circle-2" class="w-6 md:w-8 h-6 md:h-8"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-slate-900 mb-2">Our Mission</h3>
-                                        <p class="text-slate-600">To create value for all stakeholders through qualitative service delivery centered in professional ethics and high standards from a culture of team work.</p>
+                                        <h3 class="text-lg md:text-xl font-bold text-slate-900 mb-2">Our Mission</h3>
+                                        <p class="text-slate-600 text-sm md:text-base">To create value for all stakeholders through qualitative service delivery centered in professional ethics and high standards from a culture of team work.</p>
                                     </div>
                                 </div>
                                 <div class="flex gap-5 group">
                                     <div class="bg-green-50 group-hover:bg-green-500 transition-colors p-4 rounded-2xl text-green-600 group-hover:text-white flex-shrink-0 h-fit">
-                                        <i data-lucide="users" class="w-8 h-8"></i>
+                                        <i data-lucide="users" class="w-6 md:w-8 h-6 md:h-8"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-slate-900 mb-2">Our Vision</h3>
-                                        <p class="text-slate-600">We are a dedicated team of professionals striving to build a globally respected brand, known for quality service delivery.</p>
+                                        <h3 class="text-lg md:text-xl font-bold text-slate-900 mb-2">Our Vision</h3>
+                                        <p class="text-slate-600 text-sm md:text-base">We are a dedicated team of professionals striving to build a globally respected brand, known for quality service delivery.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="reveal-right delay-200 relative">
-                            <div class="aspect-[4/5] md:aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500 relative group">
+                        <div class="reveal-right delay-200 relative mt-10 md:mt-0">
+                            <div class="aspect-square md:aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500 relative group">
                                 <img src="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Construction team collaborating" class="w-full h-full object-cover" />
                                 <div class="absolute inset-0 bg-green-900/20 group-hover:bg-transparent transition-colors duration-500"></div>
                             </div>
-                            <div class="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl" style="animation: bounce 3s infinite">
-                                <div class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-600 mb-1">15+</div>
-                                <div class="text-sm font-bold text-slate-700 uppercase tracking-wide">Years of Excellence<br/>in Nigeria</div>
+                            <div class="absolute -bottom-6 -left-6 md:-bottom-8 md:-left-8 bg-white p-4 md:p-6 rounded-2xl shadow-xl" style="animation: bounce 3s infinite">
+                                <div class="text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-600 mb-1">15+</div>
+                                <div class="text-xs md:text-sm font-bold text-slate-700 uppercase tracking-wide">Years of Excellence<br/>in Nigeria</div>
                             </div>
                         </div>
                     </div>
@@ -427,84 +427,84 @@
             </section>
             
             <!-- Company Policies Section -->
-            <section class="py-24 bg-slate-50 relative border-t border-slate-200" aria-label="Company Policies">
+            <section class="py-16 md:py-24 bg-slate-50 relative border-t border-slate-200" aria-label="Company Policies">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="text-center max-w-3xl mx-auto mb-16 reveal-up">
-                        <h2 class="text-4xl font-bold text-slate-900 mb-4">Our Core <span class="text-green-500">Policies</span></h2>
+                    <div class="text-center max-w-3xl mx-auto mb-12 md:mb-16 reveal-up">
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Core <span class="text-green-500">Policies</span></h2>
                         <div class="w-20 h-1.5 bg-green-500 mx-auto mb-6 rounded-full"></div>
-                        <p class="text-slate-600 text-lg">Amada Resources operates under strict guiding principles to ensure the highest standards of safety, quality, and ethical conduct.</p>
+                        <p class="text-slate-600 text-base md:text-lg">Amada Resources operates under strict guiding principles to ensure the highest standards of safety, quality, and ethical conduct.</p>
                     </div>
 
                     <!-- ISO 9001:2015 Quality Policy Highlight -->
-                    <div class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border-t-4 border-green-500 mb-16 reveal-up relative overflow-hidden">
-                        <div class="absolute top-0 right-0 w-64 h-64 bg-green-50 rounded-full blur-3xl opacity-50 -mr-20 -mt-20"></div>
+                    <div class="bg-white p-6 md:p-12 rounded-3xl shadow-xl border-t-4 border-green-500 mb-12 md:mb-16 reveal-up relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-64 h-64 bg-green-50 rounded-full blur-3xl opacity-50 -mr-20 -mt-20 hidden md:block"></div>
                         <div class="relative z-10">
-                            <div class="flex items-center gap-4 mb-8">
-                                <div class="w-16 h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center shadow-inner">
-                                    <i data-lucide="award" class="w-8 h-8"></i>
+                            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-6 md:mb-8">
+                                <div class="w-14 md:w-16 h-14 md:h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center shadow-inner shrink-0">
+                                    <i data-lucide="award" class="w-6 md:w-8 h-6 md:h-8"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-2xl md:text-3xl font-bold text-slate-900">Quality Policy Statement</h3>
-                                    <p class="text-green-600 font-bold tracking-wider mt-1">ISO 9001:2015 COMPLIANT</p>
+                                    <h3 class="text-xl md:text-3xl font-bold text-slate-900">Quality Policy Statement</h3>
+                                    <p class="text-green-600 font-bold tracking-wider mt-1 text-xs md:text-sm">ISO 9001:2015 COMPLIANT</p>
                                 </div>
                             </div>
                             
-                            <blockquote class="text-lg text-slate-600 leading-relaxed italic border-l-4 border-slate-200 pl-6 mb-8">
+                            <blockquote class="text-base md:text-lg text-slate-600 leading-relaxed italic border-l-4 border-slate-200 pl-4 md:pl-6 mb-6 md:mb-8">
                                 "At Amada Resources & Sons Limited, we are committed to consistently producing high-quality services which include Construction, Dry Food Grains Supply, Medical Equipment Supply, Furniture Supply, and ICT Equipment Supply that meet customers’ expectations and fulfill all applicable regulatory requirements. 
                                 <br><br>
                                 We achieve this by involving all our employees through the Quality Management System <strong>ISO 9001:2015</strong> in order to have continual improvement on our products delivery with a focus on excellence. To achieve our Quality Policy, we have defined and established Quality objectives that cut across every process within the organization."
                             </blockquote>
 
                             <div class="flex items-center gap-4 border-t border-slate-100 pt-6">
-                                <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-400">
-                                    <i data-lucide="user" class="w-6 h-6"></i>
+                                <div class="w-10 md:w-12 h-10 md:h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-400 shrink-0">
+                                    <i data-lucide="user" class="w-5 md:w-6 h-5 md:h-6"></i>
                                 </div>
                                 <div>
-                                    <div class="font-bold text-slate-900 text-lg">Aminu S. Wakawa</div>
-                                    <div class="text-green-600 font-medium text-sm uppercase tracking-wider">Chief Executive Officer</div>
+                                    <div class="font-bold text-slate-900 text-base md:text-lg">Aminu S. Wakawa</div>
+                                    <div class="text-green-600 font-medium text-xs md:text-sm uppercase tracking-wider">Chief Executive Officer</div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <article class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up hover:shadow-lg transition-all duration-300">
-                            <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
-                                <i data-lucide="scale" class="w-7 h-7"></i>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                        <article class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
+                                <i data-lucide="scale" class="w-6 md:w-7 h-6 md:h-7"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-3">Professional Ethics</h3>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-900 mb-3">Professional Ethics</h3>
                             <p class="text-slate-600 text-sm leading-relaxed">We conduct all our business affairs with the highest level of integrity, adhering to professional standards, statutory regulations, and transparent business practices across all operations.</p>
                         </article>
 
-                        <article class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-100 hover:shadow-lg transition-all duration-300">
-                            <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
-                                <i data-lucide="heart-pulse" class="w-7 h-7"></i>
+                        <article class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-100 hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
+                                <i data-lucide="heart-pulse" class="w-6 md:w-7 h-6 md:h-7"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-3">Health & Safety (HSE)</h3>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-900 mb-3">Health & Safety (HSE)</h3>
                             <p class="text-slate-600 text-sm leading-relaxed">The health and safety of our employees, sub-contractors, and the public is paramount. We maintain a "Safety First" culture and comply strictly with all occupational health guidelines.</p>
                         </article>
 
-                        <article class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-200 hover:shadow-lg transition-all duration-300">
-                            <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
-                                <i data-lucide="badge-check" class="w-7 h-7"></i>
+                        <article class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-200 hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
+                                <i data-lucide="badge-check" class="w-6 md:w-7 h-6 md:h-7"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-3">Quality Control</h3>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-900 mb-3">Quality Control</h3>
                             <p class="text-slate-600 text-sm leading-relaxed">We are committed to delivering defect-free products and services. Our comprehensive QA/QC programs ensure that every project meets or exceeds client specifications and industry standards.</p>
                         </article>
 
-                        <article class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up hover:shadow-lg transition-all duration-300">
-                            <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
-                                <i data-lucide="leaf" class="w-7 h-7"></i>
+                        <article class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
+                                <i data-lucide="leaf" class="w-6 md:w-7 h-6 md:h-7"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-3">Environmental Responsibility</h3>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-900 mb-3">Environmental Responsibility</h3>
                             <p class="text-slate-600 text-sm leading-relaxed">We proactively identify and mitigate environmental impacts from our operations. Our focus on renewable solar energy directly reflects our commitment to eco-friendly practices and reducing carbon footprints.</p>
                         </article>
 
-                        <article class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-100 hover:shadow-lg transition-all duration-300">
-                            <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
-                                <i data-lucide="users-2" class="w-7 h-7"></i>
+                        <article class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 reveal-up delay-100 hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600">
+                                <i data-lucide="users-2" class="w-6 md:w-7 h-6 md:h-7"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-3">Community Relations</h3>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-900 mb-3">Community Relations</h3>
                             <p class="text-slate-600 text-sm leading-relaxed">We strive to be a responsible corporate citizen. We engage positively with host communities, respect local cultures, and contribute to social development in the areas where we operate.</p>
                         </article>
                     </div>
@@ -514,110 +514,110 @@
 
         <!-- === SERVICES PAGE === -->
         <article id="page-services" class="page-content">
-            <header class="relative pt-40 pb-20 flex items-center justify-center text-center overflow-hidden">
+            <header class="relative pt-32 md:pt-40 pb-16 md:pb-20 flex items-center justify-center text-center overflow-hidden">
                 <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" role="img" aria-label="Modern Architecture"></div>
                 <div class="absolute inset-0 bg-slate-900/80"></div>
                 <div class="relative z-10 px-4 reveal-up">
-                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">Our Services</h1>
-                    <p class="text-green-400 text-lg font-medium">Comprehensive Solutions Across Multiple Sectors</p>
+                    <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Our Services</h1>
+                    <p class="text-green-400 text-base md:text-lg font-medium">Comprehensive Solutions Across Multiple Sectors</p>
                     <div class="w-20 h-1.5 bg-green-500 mx-auto mt-6 rounded-full"></div>
                 </div>
             </header>
 
-            <section class="py-24 bg-slate-900 relative" aria-label="Services List">
+            <section class="py-16 md:py-24 bg-slate-900 relative" aria-label="Services List">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <!-- Service 1 -->
-                        <div class="reveal-up delay-100 relative h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
+                        <div class="reveal-up delay-100 relative h-72 md:h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
                             <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30 transition-opacity duration-300 group-hover:opacity-90"></div>
-                            <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                            <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
                                 <div class="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
-                                    <div class="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                                        <i data-lucide="building-2" class="w-8 h-8 text-white"></i>
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                                        <i data-lucide="building-2" class="w-6 md:w-8 h-6 md:h-8 text-white"></i>
                                     </div>
-                                    <h2 class="text-2xl font-bold text-white mb-3">Building & Civil Works</h2>
-                                    <p class="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                                    <h2 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">Building & Civil Works</h2>
+                                    <p class="text-slate-300 text-xs md:text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                         From residential to public office complexes, we offer end-to-end design, planning, and construction services.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <!-- Service 2 -->
-                        <div class="reveal-up delay-200 relative h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
+                        <div class="reveal-up delay-200 relative h-72 md:h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
                             <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541855321356-07ceeb1f1a55?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30 transition-opacity duration-300 group-hover:opacity-90"></div>
-                            <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                            <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
                                 <div class="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
-                                    <div class="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                                        <i data-lucide="droplets" class="w-8 h-8 text-white"></i>
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                                        <i data-lucide="droplets" class="w-6 md:w-8 h-6 md:h-8 text-white"></i>
                                     </div>
-                                    <h2 class="text-2xl font-bold text-white mb-3">Water Engineering</h2>
-                                    <p class="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                                    <h2 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">Water Engineering</h2>
+                                    <p class="text-slate-300 text-xs md:text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                         Borehole drilling, water reticulation, dams, erosion control, and water treatment plant installations.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <!-- Service 3 -->
-                        <div class="reveal-up delay-300 relative h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
+                        <div class="reveal-up delay-300 relative h-72 md:h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
                             <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1592833159155-c62df1b65634?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30 transition-opacity duration-300 group-hover:opacity-90"></div>
-                            <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                            <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
                                 <div class="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
-                                    <div class="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                                        <i data-lucide="zap" class="w-8 h-8 text-white"></i>
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                                        <i data-lucide="zap" class="w-6 md:w-8 h-6 md:h-8 text-white"></i>
                                     </div>
-                                    <h2 class="text-2xl font-bold text-white mb-3">Power & Solar</h2>
-                                    <p class="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                                    <h2 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">Power & Solar</h2>
+                                    <p class="text-slate-300 text-xs md:text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                         Rural electrification, transformer installation, and off-grid renewable solar energy solutions.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <!-- Service 4 -->
-                        <div class="reveal-up delay-100 relative h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
+                        <div class="reveal-up delay-100 relative h-72 md:h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
                             <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30 transition-opacity duration-300 group-hover:opacity-90"></div>
-                            <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                            <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
                                 <div class="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
-                                    <div class="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                                        <i data-lucide="shopping-cart" class="w-8 h-8 text-white"></i>
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                                        <i data-lucide="shopping-cart" class="w-6 md:w-8 h-6 md:h-8 text-white"></i>
                                     </div>
-                                    <h2 class="text-2xl font-bold text-white mb-3">General Procurement</h2>
-                                    <p class="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                                    <h2 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">General Procurement</h2>
+                                    <p class="text-slate-300 text-xs md:text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                         Supply of home/office furniture, ICT solutions, food items, and specialized agricultural materials.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <!-- Service 5 -->
-                        <div class="reveal-up delay-200 relative h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
+                        <div class="reveal-up delay-200 relative h-72 md:h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
                             <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30 transition-opacity duration-300 group-hover:opacity-90"></div>
-                            <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                            <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
                                 <div class="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
-                                    <div class="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                                        <i data-lucide="stethoscope" class="w-8 h-8 text-white"></i>
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                                        <i data-lucide="stethoscope" class="w-6 md:w-8 h-6 md:h-8 text-white"></i>
                                     </div>
-                                    <h2 class="text-2xl font-bold text-white mb-3">Medical Equipment</h2>
-                                    <p class="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                                    <h2 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">Medical Equipment</h2>
+                                    <p class="text-slate-300 text-xs md:text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                         Supply of state-of-the-art hospital and laboratory equipment, drugs, and medical consumables.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <!-- Service 6 -->
-                        <div class="reveal-up delay-300 relative h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
+                        <div class="reveal-up delay-300 relative h-72 md:h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
                             <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30 transition-opacity duration-300 group-hover:opacity-90"></div>
-                            <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                            <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
                                 <div class="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
-                                    <div class="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                                        <i data-lucide="home" class="w-8 h-8 text-white"></i>
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-500 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                                        <i data-lucide="home" class="w-6 md:w-8 h-6 md:h-8 text-white"></i>
                                     </div>
-                                    <h2 class="text-2xl font-bold text-white mb-3">Real Estate & Facilities</h2>
-                                    <p class="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                                    <h2 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">Real Estate & Facilities</h2>
+                                    <p class="text-slate-300 text-xs md:text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                         Property development and full-range facility management for private and public-owned properties.
                                     </p>
                                 </div>
@@ -630,28 +630,28 @@
 
         <!-- === PROJECTS PAGE === -->
         <article id="page-projects" class="page-content">
-            <header class="relative pt-40 pb-20 flex items-center justify-center text-center overflow-hidden">
+            <header class="relative pt-32 md:pt-40 pb-16 md:pb-20 flex items-center justify-center text-center overflow-hidden">
                 <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1541855321356-07ceeb1f1a55?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" role="img" aria-label="Dam Construction"></div>
                 <div class="absolute inset-0 bg-slate-900/80"></div>
                 <div class="relative z-10 px-4 reveal-up">
-                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">Projects & Capabilities</h1>
-                    <p class="text-green-400 text-lg font-medium">Delivering Excellence in Every Project</p>
+                    <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Projects & Capabilities</h1>
+                    <p class="text-green-400 text-base md:text-lg font-medium">Delivering Excellence in Every Project</p>
                     <div class="w-20 h-1.5 bg-green-500 mx-auto mt-6 rounded-full"></div>
                 </div>
             </header>
 
-            <section class="py-24 bg-white" aria-label="Portfolio Gallery">
+            <section class="py-16 md:py-24 bg-white" aria-label="Portfolio Gallery">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="reveal-up text-center mb-12">
-                        <div class="flex flex-wrap justify-center gap-3 mb-12" id="portfolio-filters" role="group" aria-label="Filter Projects">
-                            <button class="filter-btn px-6 py-2 rounded-full text-sm font-bold transition-all duration-300 bg-green-500 text-white shadow-md" data-filter="All">All</button>
-                            <button class="filter-btn px-6 py-2 rounded-full text-sm font-bold transition-all duration-300 bg-slate-100 text-slate-600 hover:bg-slate-200" data-filter="Construction">Construction</button>
-                            <button class="filter-btn px-6 py-2 rounded-full text-sm font-bold transition-all duration-300 bg-slate-100 text-slate-600 hover:bg-slate-200" data-filter="Solar & Power">Solar & Power</button>
-                            <button class="filter-btn px-6 py-2 rounded-full text-sm font-bold transition-all duration-300 bg-slate-100 text-slate-600 hover:bg-slate-200" data-filter="Procurement">Procurement</button>
+                    <div class="reveal-up text-center mb-10 md:mb-12">
+                        <div class="flex flex-wrap justify-center gap-2 md:gap-3 mb-10 md:mb-12" id="portfolio-filters" role="group" aria-label="Filter Projects">
+                            <button class="filter-btn px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-bold transition-all duration-300 bg-green-500 text-white shadow-md" data-filter="All">All</button>
+                            <button class="filter-btn px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-bold transition-all duration-300 bg-slate-100 text-slate-600 hover:bg-slate-200" data-filter="Construction">Construction</button>
+                            <button class="filter-btn px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-bold transition-all duration-300 bg-slate-100 text-slate-600 hover:bg-slate-200" data-filter="Solar & Power">Solar & Power</button>
+                            <button class="filter-btn px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-bold transition-all duration-300 bg-slate-100 text-slate-600 hover:bg-slate-200" data-filter="Procurement">Procurement</button>
                         </div>
                     </div>
 
-                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8" id="portfolio-grid">
                         <!-- Portfolios Items -->
                         <figure class="portfolio-item reveal-up group" data-category="Construction">
                             <div class="rounded-2xl overflow-hidden bg-slate-50 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100">
@@ -661,7 +661,7 @@
                                 </div>
                                 <figcaption class="p-6">
                                     <div class="text-xs font-bold text-green-500 uppercase tracking-wider mb-2">Construction</div>
-                                    <h3 class="text-xl font-bold text-slate-900">Modern Office Complex</h3>
+                                    <h3 class="text-lg md:text-xl font-bold text-slate-900">Modern Office Complex</h3>
                                 </figcaption>
                             </div>
                         </figure>
@@ -673,7 +673,7 @@
                                 </div>
                                 <figcaption class="p-6">
                                     <div class="text-xs font-bold text-green-500 uppercase tracking-wider mb-2">Solar & Power</div>
-                                    <h3 class="text-xl font-bold text-slate-900">Rural Solar Grid Installation</h3>
+                                    <h3 class="text-lg md:text-xl font-bold text-slate-900">Rural Solar Grid Installation</h3>
                                 </figcaption>
                             </div>
                         </figure>
@@ -685,7 +685,7 @@
                                 </div>
                                 <figcaption class="p-6">
                                     <div class="text-xs font-bold text-green-500 uppercase tracking-wider mb-2">Procurement</div>
-                                    <h3 class="text-xl font-bold text-slate-900">Medical Supplies Delivery</h3>
+                                    <h3 class="text-lg md:text-xl font-bold text-slate-900">Medical Supplies Delivery</h3>
                                 </figcaption>
                             </div>
                         </figure>
@@ -697,7 +697,7 @@
                                 </div>
                                 <figcaption class="p-6">
                                     <div class="text-xs font-bold text-green-500 uppercase tracking-wider mb-2">Construction</div>
-                                    <h3 class="text-xl font-bold text-slate-900">Highway Rehabilitation</h3>
+                                    <h3 class="text-lg md:text-xl font-bold text-slate-900">Highway Rehabilitation</h3>
                                 </figcaption>
                             </div>
                         </figure>
@@ -709,7 +709,7 @@
                                 </div>
                                 <figcaption class="p-6">
                                     <div class="text-xs font-bold text-green-500 uppercase tracking-wider mb-2">Solar & Power</div>
-                                    <h3 class="text-xl font-bold text-slate-900">Transformer Sub-station</h3>
+                                    <h3 class="text-lg md:text-xl font-bold text-slate-900">Transformer Sub-station</h3>
                                 </figcaption>
                             </div>
                         </figure>
@@ -721,7 +721,7 @@
                                 </div>
                                 <figcaption class="p-6">
                                     <div class="text-xs font-bold text-green-500 uppercase tracking-wider mb-2">Procurement</div>
-                                    <h3 class="text-xl font-bold text-slate-900">Corporate Furniture Supply</h3>
+                                    <h3 class="text-lg md:text-xl font-bold text-slate-900">Corporate Furniture Supply</h3>
                                 </figcaption>
                             </div>
                         </figure>
@@ -732,29 +732,29 @@
 
         <!-- === CLIENTS PAGE === -->
         <article id="page-clients" class="page-content">
-            <header class="relative pt-40 pb-20 flex items-center justify-center text-center overflow-hidden">
+            <header class="relative pt-32 md:pt-40 pb-16 md:pb-20 flex items-center justify-center text-center overflow-hidden">
                 <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" role="img" aria-label="Corporate Partners"></div>
                 <div class="absolute inset-0 bg-slate-900/80"></div>
                 <div class="relative z-10 px-4 reveal-up">
-                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">Trusted Partners</h1>
-                    <p class="text-green-400 text-lg font-medium">Organizations We Work With</p>
+                    <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Trusted Partners</h1>
+                    <p class="text-green-400 text-base md:text-lg font-medium">Organizations We Work With</p>
                     <div class="w-20 h-1.5 bg-green-500 mx-auto mt-6 rounded-full"></div>
                 </div>
             </header>
 
-            <section class="py-24 bg-slate-50 min-h-[500px]" aria-label="Client Roster">
+            <section class="py-16 md:py-24 bg-slate-50 min-h-[500px]" aria-label="Client Roster">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal-up">
-                    <p class="text-slate-600 text-xl mb-16 max-w-3xl mx-auto leading-relaxed">We are proud to have delivered successful projects and supplies to major international NGOs and Federal Government parastatals.</p>
+                    <p class="text-slate-600 text-base md:text-xl mb-12 md:mb-16 max-w-3xl mx-auto leading-relaxed">We are proud to have delivered successful projects and supplies to major international NGOs and Federal Government parastatals.</p>
                     
-                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">World Food Programme (WFP)</div>
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">Action Against Hunger</div>
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">ALIMA</div>
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">Fed. Ministry of Works & Housing</div>
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">Fed. Inland Revenue Service</div>
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">National Health Insurance Authority</div>
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">National Productivity Centre</div>
-                        <div class="bg-white p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-32">Plan International</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">World Food Programme (WFP)</div>
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">Action Against Hunger</div>
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">ALIMA</div>
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">Fed. Ministry of Works & Housing</div>
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">Fed. Inland Revenue Service</div>
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">National Health Insurance Authority</div>
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">National Productivity Centre</div>
+                        <div class="bg-white p-6 md:p-8 rounded-3xl text-slate-600 font-bold border border-slate-100 shadow-sm hover:shadow-xl hover:border-green-200 hover:text-green-600 transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center text-center h-24 md:h-32">Plan International</div>
                     </div>
                 </div>
             </section>
@@ -762,89 +762,89 @@
 
         <!-- === CONTACT PAGE === -->
         <article id="page-contact" class="page-content">
-            <header class="relative pt-40 pb-20 flex items-center justify-center text-center overflow-hidden">
+            <header class="relative pt-32 md:pt-40 pb-16 md:pb-20 flex items-center justify-center text-center overflow-hidden">
                 <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" role="img" aria-label="Customer Support"></div>
                 <div class="absolute inset-0 bg-slate-900/80"></div>
                 <div class="relative z-10 px-4 reveal-up">
-                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">Contact Us</h1>
-                    <p class="text-green-400 text-lg font-medium">We Are Ready to Deliver Excellence</p>
+                    <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Contact Us</h1>
+                    <p class="text-green-400 text-base md:text-lg font-medium">We Are Ready to Deliver Excellence</p>
                     <div class="w-20 h-1.5 bg-green-500 mx-auto mt-6 rounded-full"></div>
                 </div>
             </header>
 
-            <section class="py-24 bg-white relative" aria-label="Contact Information and Form">
+            <section class="py-16 md:py-24 bg-white relative" aria-label="Contact Information and Form">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="grid lg:grid-cols-2 gap-16">
+                    <div class="grid lg:grid-cols-2 gap-12 md:gap-16">
                         <div class="reveal-left">
-                            <h2 class="text-4xl font-bold text-slate-900 mb-6">Get in <span class="text-green-500">Touch</span></h2>
+                            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Get in <span class="text-green-500">Touch</span></h2>
                             <div class="w-20 h-1.5 bg-green-500 mb-8 rounded-full"></div>
-                            <p class="text-slate-600 text-lg mb-12 leading-relaxed">
+                            <p class="text-slate-600 text-base md:text-lg mb-10 md:mb-12 leading-relaxed">
                                 Whether you're looking for world-class civil engineering, reliable procurement, or renewable energy solutions, our team is ready to deliver excellence.
                             </p>
                             
-                            <address class="space-y-8 not-italic">
-                                <div class="flex gap-6 items-start group">
-                                    <div class="w-14 h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
-                                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                            <address class="space-y-6 md:space-y-8 not-italic">
+                                <div class="flex gap-4 md:gap-6 items-start group">
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
+                                        <i data-lucide="map-pin" class="w-5 md:w-6 h-5 md:h-6"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-slate-900">Head Office</h3>
-                                        <p class="text-slate-600 mt-2 leading-relaxed">Plot 588, Stella Maris Street, by Area 1, <br/>Old Secretariat, Durumi District, <br/>Abuja, Nigeria.</p>
+                                        <h3 class="text-lg md:text-xl font-bold text-slate-900">Head Office</h3>
+                                        <p class="text-slate-600 mt-1 md:mt-2 text-sm md:text-base leading-relaxed">Plot 588, Stella Maris Street, by Area 1, <br/>Old Secretariat, Durumi District, <br/>Abuja, Nigeria.</p>
                                     </div>
                                 </div>
                                 
-                                <div class="flex gap-6 items-start group">
-                                    <div class="w-14 h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
-                                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                                <div class="flex gap-4 md:gap-6 items-start group">
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
+                                        <i data-lucide="map-pin" class="w-5 md:w-6 h-5 md:h-6"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-slate-900">Branch Office</h3>
-                                        <p class="text-slate-600 mt-2 leading-relaxed">No. 24B, Building, Sir Kashim Ibrahim Way, <br/>Maiduguri, Borno State, Nigeria.</p>
+                                        <h3 class="text-lg md:text-xl font-bold text-slate-900">Branch Office</h3>
+                                        <p class="text-slate-600 mt-1 md:mt-2 text-sm md:text-base leading-relaxed">No. 24B, Building, Sir Kashim Ibrahim Way, <br/>Maiduguri, Borno State, Nigeria.</p>
                                     </div>
                                 </div>
 
-                                <div class="flex gap-6 items-center group">
-                                    <div class="w-14 h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
-                                        <i data-lucide="phone" class="w-6 h-6"></i>
+                                <div class="flex gap-4 md:gap-6 items-center group">
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
+                                        <i data-lucide="phone" class="w-5 md:w-6 h-5 md:h-6"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-slate-900">Phone</h3>
-                                        <a href="tel:+2347036899266" class="text-slate-600 mt-1 text-lg hover:text-green-500 transition-colors">+234 703 689 9266</a>
+                                        <h3 class="text-lg md:text-xl font-bold text-slate-900">Phone</h3>
+                                        <a href="tel:+2347036899266" class="text-slate-600 mt-1 text-base md:text-lg hover:text-green-500 transition-colors inline-block">+234 703 689 9266</a>
                                     </div>
                                 </div>
 
-                                <div class="flex gap-6 items-center group">
-                                    <div class="w-14 h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
-                                        <i data-lucide="mail" class="w-6 h-6"></i>
+                                <div class="flex gap-4 md:gap-6 items-center group w-full overflow-hidden">
+                                    <div class="w-12 md:w-14 h-12 md:h-14 bg-green-50 group-hover:bg-green-500 transition-colors rounded-2xl flex items-center justify-center flex-shrink-0 text-green-600 group-hover:text-white">
+                                        <i data-lucide="mail" class="w-5 md:w-6 h-5 md:h-6"></i>
                                     </div>
-                                    <div>
-                                        <h3 class="text-xl font-bold text-slate-900">Email</h3>
-                                        <a href="mailto:amadaresourcesltd@gmail.com" class="text-slate-600 mt-1 text-lg hover:text-green-500 transition-colors">amadaresourcesltd@gmail.com</a>
+                                    <div class="min-w-0">
+                                        <h3 class="text-lg md:text-xl font-bold text-slate-900">Email</h3>
+                                        <a href="mailto:amadaresourcesltd@gmail.com" class="text-slate-600 mt-1 text-sm sm:text-base md:text-lg hover:text-green-500 transition-colors break-all">amadaresourcesltd@gmail.com</a>
                                     </div>
                                 </div>
                             </address>
                         </div>
 
-                        <div class="reveal-right delay-200 bg-slate-50 p-8 md:p-10 rounded-3xl shadow-lg border border-slate-100">
-                            <h3 class="text-2xl font-bold text-slate-900 mb-8">Send us a Message</h3>
-                            <form class="space-y-6" action="#" method="POST">
-                                <div class="grid grid-cols-2 gap-6">
+                        <div class="reveal-right delay-200 bg-slate-50 p-6 sm:p-8 md:p-10 rounded-3xl shadow-lg border border-slate-100 mt-8 lg:mt-0">
+                            <h3 class="text-xl md:text-2xl font-bold text-slate-900 mb-6 md:mb-8">Send us a Message</h3>
+                            <form class="space-y-4 md:space-y-6" action="#" method="POST">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
                                     <div>
                                         <label for="fname" class="block text-sm font-bold text-slate-700 mb-2">First Name</label>
-                                        <input type="text" id="fname" name="fname" required class="w-full px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all" placeholder="John" />
+                                        <input type="text" id="fname" name="fname" required class="w-full px-4 md:px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all" placeholder="John" />
                                     </div>
                                     <div>
                                         <label for="lname" class="block text-sm font-bold text-slate-700 mb-2">Last Name</label>
-                                        <input type="text" id="lname" name="lname" required class="w-full px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all" placeholder="Doe" />
+                                        <input type="text" id="lname" name="lname" required class="w-full px-4 md:px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all" placeholder="Doe" />
                                     </div>
                                 </div>
                                 <div>
                                     <label for="email" class="block text-sm font-bold text-slate-700 mb-2">Email Address</label>
-                                    <input type="email" id="email" name="email" required class="w-full px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all" placeholder="john@example.com" />
+                                    <input type="email" id="email" name="email" required class="w-full px-4 md:px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all" placeholder="john@example.com" />
                                 </div>
                                 <div>
                                     <label for="inquiry" class="block text-sm font-bold text-slate-700 mb-2">Inquiry Type</label>
-                                    <select id="inquiry" name="inquiry" class="w-full px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all appearance-none">
+                                    <select id="inquiry" name="inquiry" class="w-full px-4 md:px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all appearance-none">
                                         <option>Construction & Civil Works</option>
                                         <option>Procurement & Supply</option>
                                         <option>Solar & Power Projects</option>
@@ -854,9 +854,9 @@
                                 </div>
                                 <div>
                                     <label for="message" class="block text-sm font-bold text-slate-700 mb-2">Message</label>
-                                    <textarea id="message" name="message" rows="4" required class="w-full px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all resize-none" placeholder="How can we help you?"></textarea>
+                                    <textarea id="message" name="message" rows="4" required class="w-full px-4 md:px-5 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all resize-none" placeholder="How can we help you?"></textarea>
                                 </div>
-                                <button type="submit" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-green-500/40 flex items-center justify-center gap-2">
+                                <button type="submit" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 md:py-4 px-6 rounded-xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-green-500/40 flex items-center justify-center gap-2">
                                     Send Message <i data-lucide="chevron-right" class="w-5 h-5"></i>
                                 </button>
                             </form>
@@ -869,24 +869,24 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800" aria-label="Site Footer">
+    <footer class="bg-slate-900 text-slate-400 py-12 md:py-16 border-t border-slate-800" aria-label="Site Footer">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-12 mb-12">
-                <div class="md:col-span-2">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 mb-12">
+                <div class="lg:col-span-2">
                     <div class="flex items-center mb-6 cursor-pointer" onclick="navigateTo('home')">
                         <img 
                             src="https://static.wixstatic.com/media/9dda8b_a31c0ff89c6f4532b9186e7f66110d3e~mv2.png/v1/fill/w_144,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Amada%20Resources.png" 
                             alt="Amada Resources Logo Footer" 
-                            class="h-14 md:h-16 object-contain bg-white p-2 rounded-xl" 
+                            class="h-12 md:h-16 object-contain bg-white p-2 rounded-xl" 
                         />
                     </div>
-                    <p class="text-base leading-relaxed max-w-md">
+                    <p class="text-sm md:text-base leading-relaxed max-w-md">
                         Creating value for stakeholders through qualitative service delivery centered on professional ethics and high standards. RC: 833987.
                     </p>
                 </div>
                 <div>
-                    <h3 class="text-white font-bold mb-6 uppercase text-sm tracking-widest">Quick Links</h3>
-                    <nav class="space-y-3 text-base flex flex-col items-start" aria-label="Footer Navigation">
+                    <h3 class="text-white font-bold mb-4 md:mb-6 uppercase text-sm tracking-widest">Quick Links</h3>
+                    <nav class="space-y-2 md:space-y-3 text-sm md:text-base flex flex-col items-start" aria-label="Footer Navigation">
                         <button onclick="navigateTo('home')" class="hover:text-green-400 transition-colors">Home</button>
                         <button onclick="navigateTo('about')" class="hover:text-green-400 transition-colors">About</button>
                         <button onclick="navigateTo('services')" class="hover:text-green-400 transition-colors">Services</button>
@@ -895,8 +895,8 @@
                     </nav>
                 </div>
                 <div>
-                    <h3 class="text-white font-bold mb-6 uppercase text-sm tracking-widest">Accreditations</h3>
-                    <ul class="space-y-3 text-base">
+                    <h3 class="text-white font-bold mb-4 md:mb-6 uppercase text-sm tracking-widest">Accreditations</h3>
+                    <ul class="space-y-2 md:space-y-3 text-sm md:text-base">
                         <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i> COREN Certified</li>
                         <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i> BPP Interim Registration</li>
                         <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i> NEMSA Certification</li>
@@ -904,9 +904,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs md:text-sm text-center md:text-left">
                 <p>&copy; <span id="year"></span> Amada Resources & Sons Limited. All rights reserved.</p>
-                <div class="flex gap-6">
+                <div class="flex flex-wrap justify-center gap-4 md:gap-6">
                     <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
                     <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
                 </div>
@@ -915,8 +915,8 @@
     </footer>
 
     <!-- Back to Top Button -->
-    <button id="backToTop" aria-label="Back to Top" class="fixed bottom-8 right-8 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl transition-all duration-500 transform translate-y-20 opacity-0 z-50">
-        <i data-lucide="arrow-up" class="w-6 h-6"></i>
+    <button id="backToTop" aria-label="Back to Top" class="fixed bottom-6 right-6 md:bottom-8 md:right-8 bg-green-500 hover:bg-green-600 text-white p-3 md:p-4 rounded-full shadow-2xl transition-all duration-500 transform translate-y-20 opacity-0 z-50">
+        <i data-lucide="arrow-up" class="w-5 md:w-6 h-5 md:h-6"></i>
     </button>
 
     <!-- Application Script -->
@@ -928,6 +928,16 @@
         // State variables
         let currentPage = 'home';
         let isScrolled = false;
+
+        // Structured Meta Descriptions for SEO routing
+        const pageDescriptions = {
+            'home': 'Amada Resources & Sons Limited (RC: 833987) is a premier infrastructure development, water engineering, off-grid solar, and general contracting company in Nigeria. Trusted by WFP, ALIMA & FIRS.',
+            'about': 'Learn about Amada Resources & Sons LTD. Incorporated in 2009, we offer proven competence in civil works, hydro engineering, power projects, and specialized procurement in Nigeria.',
+            'services': 'Explore our comprehensive services including Building & Civil Works, Water Engineering, Power & Solar, General Procurement, Medical Equipment, and Real Estate Management.',
+            'projects': 'View our portfolio of successful projects including modern office complexes, rural solar grid installations, highway rehabilitation, and medical supplies delivery.',
+            'clients': 'Amada Resources is trusted by major international NGOs and Federal Government parastatals including WFP, Action Against Hunger, ALIMA, and FIRS.',
+            'contact': 'Get in touch with Amada Resources & Sons LTD in Abuja and Maiduguri for world-class civil engineering, reliable procurement, and renewable energy solutions.'
+        };
 
         // --- Routing / Navigation ---
         function navigateTo(pageId) {
@@ -962,6 +972,14 @@
                 'contact': 'Contact Us | Amada Resources & Sons LTD'
             };
             document.title = pageTitles[pageId] || pageTitles['home'];
+            
+            // Update Dynamic Meta Descriptions for SPA SEO Context
+            const newDesc = pageDescriptions[pageId] || pageDescriptions['home'];
+            document.getElementById('meta-description').setAttribute('content', newDesc);
+            document.getElementById('og-description').setAttribute('content', newDesc);
+            document.getElementById('twitter-description').setAttribute('content', newDesc);
+            document.getElementById('og-title').setAttribute('content', document.title);
+            document.getElementById('twitter-title').setAttribute('content', document.title);
 
             // Re-trigger scroll animations for the new page
             observeAnimations();
